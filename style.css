@@ -1,0 +1,121 @@
+/* ===== Reset / Base ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+  color: #1f2937;
+  background-color: #f9fafb;
+}
+
+/* ===== Header ===== */
+header {
+  background-color: #111827;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+/* Navigation */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #d1d5db;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+/* ===== Main Layout ===== */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Headings */
+h2 {
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+/* Paragraph */
+p {
+  margin-bottom: 15px;
+  color: #4b5563;
+}
+
+/* ===== Button ===== */
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+/* ===== Sections ===== */
+section {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* ===== List ===== */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background-color: #111827;
+  color: #d1d5db;
+  font-size: 14px;
+}
+
+/* Hide scrollbar but still allow scrolling */
+body {
+  overflow: auto;
+}
+
+/* Chrome, Edge, Safari */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox */
+html {
+  scrollbar-width: none;
+}
